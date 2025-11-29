@@ -8,7 +8,7 @@ from pathlib import Path
 from transcribe_videos import process_youtube_search, process_single_video
 
 # Configuration
-HOST = "http://localhost:7860"
+HOST = "https://brainless-vicenta-glottic.ngrok-free.dev"
 UPLOAD_FLOW_ID = "6aeffd74-6ad2-48e3-8d94-2ef7af03dfc1"
 QUERY_FLOW_ID = "9298cf0a-a1b7-42e3-a04b-f88d4b91610e"
 API_KEY = "sk-vZ6VfCG1RMrlURlLKOFlARwLjflZOl5KbJmV3oA8aXE"
