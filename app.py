@@ -281,8 +281,8 @@ with tab2:
                                     snippet = clean_text_display[:300] + "..." if len(clean_text_display) > 300 else clean_text_display
                                     st.markdown("**Transcript Excerpt:**")
                                     st.text_area(
-                                        st.text_area("Label text", ...)
-                                        st.text_area("Label text", label_visibility="hidden", ...)
+                                        st.text_area("Label text", ...),
+                                        st.text_area("Label text", label_visibility="hidden", ...),
                                         snippet,
                                         height=250,
                                         key=f"text_{i}",
